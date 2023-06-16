@@ -7,7 +7,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
     from_='+18339073425',
     body='tested via VS code',
-    to='+16198946405'
+    to='+11234567890'
 )
 
 print(message.sid)
